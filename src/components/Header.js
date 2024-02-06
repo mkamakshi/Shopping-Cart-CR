@@ -9,8 +9,8 @@ export const Header = () => {
     <header>
       
           <Link to="/" className="logo">
-            <img src={Logo} alt="Shopping Cart Logo" className="border b-2" />
-            <span className="border b-2">Shopping Cart</span>  
+            <img src={Logo} alt="Shopping Cart Logo"  />
+            <span >Shopping Cart</span>  
           </Link>
 
           <nav className="navigation">
@@ -19,7 +19,7 @@ export const Header = () => {
       </nav>
 
       <Link to="/cart" className="items">
-        <span className="border b-2">Cart: {cartList.length}</span>
+        <span>Cart: {cartList.length}</span>
       </Link>
 
     </header>
